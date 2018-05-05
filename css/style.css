@@ -5,53 +5,51 @@
 body {
     text-align: center;
     background-color: #210145;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #d9d5d3;
+#score {
+  margin-top: 20px;
+  color: #ffffff;
 }
 
 .popup {
   width: 600px;
   height: 450px;
-  background: #a19a95;
+  background: #ffffff;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  border: 10px solid #c5a57e;
+  border: 5px solid #5473da;
   padding: 20px;
   color: #444649;
   box-shadow: 10 10 30px #444649;
 }
 
-button {
+#restart {
   font-size: 2em;
   padding: 10px 30px;
   background: #7a908f;
-  border: 5px solid #444649;
+  border: 5px solid #5473da;
 }
 
-button:hover {
+#restart:hover {
   cursor: pointer;
-  background: #a98062;
+  background: #ff7f50;
+  color: #ffffff;
 }
 
-.win h2 {
-  text-transform: uppercase;
+.winner h2 {
   font-size: 2.5em;
-  color: #000;
+  color: #12b41f;
 }
 
-.win p {
-  color: red;
-  z-index: 1000;
+.winner p {
+  color: #ff7f50;
+  text-transform: uppercase;
+  font-size: 3em;
 }
 
 .hidden {
